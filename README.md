@@ -18,7 +18,7 @@
     - endpoint: http://localhost:8000/api/endpoints/upload-file/
     
     - parameter names: uploaded_csv_file
-    - example: 
+    - example: {'uploaded_csv_file': <csv-file>}
     
 
 
