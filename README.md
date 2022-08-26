@@ -6,7 +6,7 @@
 - Create User: run *make createsuperuser*
 - Running the app: run *make run*
 
- *Endpoint*
+ *API Endpoints*
     Retrieve Rows(GET): 
 
     - endpoint: http://localhost:8000/api/endpoints/retrieve-rows/

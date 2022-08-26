@@ -41,7 +41,7 @@ class DataTableViewSet(viewsets.ModelViewSet):
 
             csv_data_row_instances = [
                 DataTable(
-                    **convert_currency(map_fieldnames(csv_row))
+                    **map_fieldnames(csv_row)
                 ) for csv_row in csv_data_rows
             ]
             try:
